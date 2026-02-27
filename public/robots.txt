@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sn7k.github.io/LightBright/sitemap.xml
