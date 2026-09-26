@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
     <loc>https://litebright.pages.dev/</loc>
-    <lastmod>2026-02-27</lastmod>
+    <lastmod>2026-09-26T14:45:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://litebright.pages.dev/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://litebright.pages.dev/" />
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dlpskz98w/image/upload/v1772199200/icon_png_r1ukbi.png</image:loc>
+      <image:title>LiteBright — Multi-Monitor Brightness Controller</image:title>
+      <image:caption>LiteBright is an ultra-lightweight Windows brightness controller for multiple displays.</image:caption>
+    </image:image>
   </url>
 
 </urlset>

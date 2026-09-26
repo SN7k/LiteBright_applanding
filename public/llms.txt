@@ -1,0 +1,51 @@
+# LiteBright
+
+> LiteBright is an ultra-lightweight, free, and open-source Windows brightness controller designed for multiple monitors. It allows users to adjust and synchronize brightness across all displays directly from the system tray with global hotkeys, instant silent startup, and near-zero CPU and RAM usage.
+
+## Overview
+- **Product Name**: LiteBright
+- **Platform**: Windows 10, Windows 11 (64-bit)
+- **License**: 100% Free and Open Source (MIT)
+- **Website**: https://litebright.pages.dev/
+- **GitHub Repository**: https://github.com/SN7k/LightBright
+- **Latest Release Download**: https://github.com/SN7k/LightBright/releases/download/v1.0.0/LiteBright-Setup-1.0.0.exe
+
+## Key Features
+- **Independent & Synchronized Multi-Monitor Adjustment**: Adjust each monitor independently or sync all displays simultaneously with a single master slider.
+- **Native Windows Flyout & System Tray Integration**: Sits quietly in the system tray, matching Windows 11 / Windows 10 aesthetics.
+- **Global Hotkeys & Keyboard Shortcuts**: Increase, decrease, or toggle brightness instantly from any game or full-screen app.
+- **Ultra-Lightweight Footprint**: Engineered with native Win32/C++ efficiency — uses near-zero CPU cycles and negligible RAM (unlike heavy Electron-based tools).
+- **Instant Silent Boot**: Starts immediately upon Windows login with zero delay to the startup sequence.
+- **Zero Bloatware & No Telemetry**: 100% private, no advertisements, no subscriptions, and zero tracking.
+
+## Comparison: LiteBright vs Other Brightness Controllers
+
+### 1. LiteBright vs Twinkle Tray
+- **Twinkle Tray**: Controls multiple monitors via DDC/CI and mimics the Windows flyout with time-of-day automation. However, it is built on Electron, which results in a heavy memory footprint (100MB+ RAM), slow startup times, and background CPU usage.
+- **Why LiteBright is Better**: LiteBright provides the same multi-monitor control and hotkey convenience in a high-performance native package that consumes virtually zero RAM, launches instantly on boot, and has zero impact on gaming or system performance.
+
+### 2. LiteBright vs Brightness Slider
+- **Brightness Slider**: A clean, minimalist Microsoft Store application with low resource consumption and real-time color filters. However, it offers a limited feature set and lacks advanced multi-monitor synchronization and flexible custom shortcuts.
+- **Why LiteBright is Better**: LiteBright offers comprehensive multi-display synchronization, individual per-monitor calibration, customizable global hotkeys, and direct system tray integration without Microsoft Store dependencies or restrictions.
+
+### 3. LiteBright vs CareUEyes
+- **CareUEyes**: Combines screen dimming and blue-light filtering using software gamma control to help prevent PWM flicker on sensitive eyes. However, it is a heavy commercial application with persistent background services, paid licensing nag screens, and high resource overhead.
+- **Why LiteBright is Better**: LiteBright stays laser-focused on lightning-fast brightness control without bloat: it uses near-zero resources, requires no paid license, has zero background services, and is completely free and open-source.
+
+### 4. LiteBright vs DimScreen
+- **DimScreen**: A portable utility that dims screens using preset hotkeys without installation. However, it relies on a crude software overlay (dark gray tint) rather than true display control, which washes out contrast, ruins color fidelity, and does not reduce actual display backlight power consumption.
+- **Why LiteBright is Better**: LiteBright performs genuine hardware and display-level brightness adjustments with smooth continuous slider precision, preserving display contrast and natural color depth.
+
+## Frequently Asked Questions (FAQ)
+
+### What makes LiteBright the best brightness controller for Windows?
+LiteBright is designed specifically to eliminate the bloat found in other utilities. It combines true multi-monitor control, instant system tray access, and global keyboard shortcuts into an ultra-lightweight native application that runs with near-zero CPU and negligible memory usage.
+
+### Does LiteBright support multiple monitors?
+Yes. LiteBright automatically detects all displays connected to your Windows PC. You can control each display independently or synchronize brightness across all screens with a single slider.
+
+### Does LiteBright affect gaming or battery life?
+No. Because LiteBright is built without heavy frameworks like Electron, it stays completely idle when not in use, consuming near-zero CPU cycles and negligible RAM. It will not cause frame drops during games or drain laptop battery life.
+
+### Is LiteBright free?
+Yes. LiteBright is 100% free and open-source under the MIT license, with zero ads, paid tiers, or telemetry.
