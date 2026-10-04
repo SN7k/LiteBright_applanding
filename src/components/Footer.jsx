@@ -3,7 +3,10 @@ import FallbackImage from './FallbackImage';
 
 const Footer = () => {
   return (
-    <footer className="bg-[var(--bg-base)] py-8 border-t border-[var(--border-subtle)] transition-colors duration-75">
+    <footer
+      className="py-8 transition-colors duration-75"
+      style={{ backgroundColor: 'var(--s3-bg, #fefefe)' }}
+    >
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="flex items-center gap-3">
           <FallbackImage

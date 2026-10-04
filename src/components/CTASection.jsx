@@ -5,9 +5,11 @@ const CTASection = () => {
   return (
     <section
       id="download"
-      className="py-32 relative overflow-hidden border-t border-[var(--border-subtle)] bg-[var(--bg-base)] transition-colors duration-75"
+      className="py-32 relative overflow-hidden transition-colors duration-75"
+      style={{ backgroundColor: 'var(--s3-bg, #fefefe)' }}
     >
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-cyan-500/10 rounded-full blur-[100px] pointer-events-none" />
+      {/* Focused center blue light glow */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[480px] h-[240px] bg-cyan-400/25 dark:bg-cyan-500/15 rounded-full blur-[80px] pointer-events-none" />
 
       <div className="max-w-3xl mx-auto px-6 lg:px-8 relative z-10 text-center">
         <FallbackImage
@@ -25,14 +27,14 @@ const CTASection = () => {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="https://github.com/SN7k/LightBright/releases/download/v1.0.0/LiteBright-Setup-1.0.0.exe"
-            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-sm font-semibold text-[var(--btn-text)] bg-[var(--btn-bg)] rounded-xl hover:bg-[var(--btn-hover)] transition-all hover:scale-[1.02]"
+            href="https://github.com/SN7k/LiteBright/releases/download/v1.2.0/LiteBright-Setup-1.2.0.exe"
+            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold text-white bg-[#1f2429] hover:bg-[#2c333a] border border-white/10 rounded-xl transition-all duration-200 active:scale-95 shadow-md hover:scale-[1.02]"
           >
             <Download className="w-5 h-5 mr-2" strokeWidth={2} />
-            Download LiteBright (v1.0)
+            Download LiteBright (v1.2.0)
           </a>
           <a
-            href="https://github.com/SN7k/LightBright"
+            href="https://github.com/SN7k/LiteBright"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-sm font-medium text-[var(--text-main)] bg-[var(--card-bg)] border border-[var(--border-subtle)] rounded-xl hover:bg-[var(--border-subtle)] transition-all"
