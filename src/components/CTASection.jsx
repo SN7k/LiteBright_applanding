@@ -28,11 +28,11 @@ const CTASection = () => {
         <div className="flex flex-col items-center justify-center gap-4">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full">
             <a
-              href="https://github.com/SN7k/LiteBright/releases/download/v1.2.1/LiteBright-Setup-1.2.1.exe"
+              href="https://github.com/SN7k/LiteBright/releases/download/v1.2.2/LiteBright-Setup-1.2.2.exe"
               className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold text-white bg-[#1f2429] hover:bg-[#2c333a] border border-white/10 rounded-xl transition-all duration-200 active:scale-95 shadow-md hover:scale-[1.02]"
             >
               <Download className="w-5 h-5 mr-2" strokeWidth={2} />
-              Download LiteBright (v1.2.1)
+              Download LiteBright (v1.2.2)
             </a>
             <a
               href="https://github.com/SN7k/LiteBright"

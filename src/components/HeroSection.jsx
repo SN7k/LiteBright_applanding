@@ -123,7 +123,7 @@ const HeroSection = ({
             <div className="flex flex-col items-start gap-3">
               <div className="flex flex-wrap items-center gap-4 sm:gap-5">
                 <a
-                  href="https://github.com/SN7k/LiteBright/releases/download/v1.2.1/LiteBright-Setup-1.2.1.exe"
+                  href="https://github.com/SN7k/LiteBright/releases/download/v1.2.2/LiteBright-Setup-1.2.2.exe"
                   id="hero-download-btn"
                   className="inline-flex items-center gap-3 px-6 py-2.5 rounded-xl text-sm font-semibold text-white bg-[#1f2429] hover:bg-[#2c333a] transition-all duration-200 active:scale-95 shadow-md shadow-black/20 border border-white/10 cursor-pointer whitespace-nowrap"
                 >
@@ -135,7 +135,7 @@ const HeroSection = ({
                   >
                     <path d="M0 2.278L6.545 1.382v6.241H0V2.278zm0 5.922h6.545v6.242L0 13.545V8.2zm7.091-6.918L16 0v7.623H7.091V1.282zm0 6.918H16V16l-8.909-1.282V8.2z" />
                   </svg>
-                  <span>Download LiteBright (v1.2.1)</span>
+                  <span>Download LiteBright (v1.2.2)</span>
                 </a>
 
                 <a
