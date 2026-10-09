@@ -120,30 +120,64 @@ const HeroSection = ({
             </p>
 
             {/* CTA Row: Windows Download Button + all downloads & changelogs link */}
-            <div className="flex flex-wrap items-center gap-4 sm:gap-5">
-              <a
-                href="https://github.com/SN7k/LiteBright/releases/download/v1.2.0/LiteBright-Setup-1.2.0.exe"
-                id="hero-download-btn"
-                className="inline-flex items-center gap-3 px-6 py-2.5 rounded-xl text-sm font-semibold text-white bg-[#1f2429] hover:bg-[#2c333a] transition-all duration-200 active:scale-95 shadow-md shadow-black/20 border border-white/10 cursor-pointer whitespace-nowrap"
-              >
-                {/* Windows official 4-pane logo */}
-                <svg
-                  className="w-4 h-4 fill-current flex-shrink-0 text-white"
-                  viewBox="0 0 16 16"
-                  aria-hidden="true"
+            <div className="flex flex-col items-start gap-3">
+              <div className="flex flex-wrap items-center gap-4 sm:gap-5">
+                <a
+                  href="https://github.com/SN7k/LiteBright/releases/download/v1.2.1/LiteBright-Setup-1.2.1.exe"
+                  id="hero-download-btn"
+                  className="inline-flex items-center gap-3 px-6 py-2.5 rounded-xl text-sm font-semibold text-white bg-[#1f2429] hover:bg-[#2c333a] transition-all duration-200 active:scale-95 shadow-md shadow-black/20 border border-white/10 cursor-pointer whitespace-nowrap"
                 >
-                  <path d="M0 2.278L6.545 1.382v6.241H0V2.278zm0 5.922h6.545v6.242L0 13.545V8.2zm7.091-6.918L16 0v7.623H7.091V1.282zm0 6.918H16V16l-8.909-1.282V8.2z" />
-                </svg>
-                <span>Download LiteBright (v1.2.0)</span>
-              </a>
+                  {/* Windows official 4-pane logo */}
+                  <svg
+                    className="w-4 h-4 fill-current flex-shrink-0 text-white"
+                    viewBox="0 0 16 16"
+                    aria-hidden="true"
+                  >
+                    <path d="M0 2.278L6.545 1.382v6.241H0V2.278zm0 5.922h6.545v6.242L0 13.545V8.2zm7.091-6.918L16 0v7.623H7.091V1.282zm0 6.918H16V16l-8.909-1.282V8.2z" />
+                  </svg>
+                  <span>Download LiteBright (v1.2.1)</span>
+                </a>
 
+                <a
+                  href="https://github.com/SN7k/LiteBright/releases"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs sm:text-sm font-normal transition-colors text-[var(--text-muted)] hover:text-[var(--text-main)] underline underline-offset-4 decoration-current/30 hover:decoration-current"
+                >
+                  all downloads & changelogs
+                </a>
+              </div>
+
+              {/* Get it from Microsoft Store Badge */}
               <a
-                href="https://github.com/SN7k/LiteBright/releases"
+                href="https://apps.microsoft.com/detail/9NTLVZDLPPK5"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xs sm:text-sm font-normal transition-colors text-[var(--text-muted)] hover:text-[var(--text-main)] underline underline-offset-4 decoration-current/30 hover:decoration-current"
+                id="hero-ms-store-btn"
+                className="inline-flex items-center gap-2.5 px-3 py-1.5 rounded-md bg-black text-white border border-white/30 hover:border-white/60 hover:bg-[#111111] transition-all duration-200 shadow-sm active:scale-95 cursor-pointer select-none"
+                title="Get LiteBright from Microsoft Store"
               >
-                all downloads & changelogs
+                {/* Microsoft 4-Color Squares Logo */}
+                <svg
+                  className="w-5 h-5 flex-shrink-0"
+                  viewBox="0 0 21 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <path d="M1 1h9v9H1V1z" fill="#f25022" />
+                  <path d="M11 1h9v9h-9V1z" fill="#7fba00" />
+                  <path d="M1 11h9v9H1v-9z" fill="#00a4ef" />
+                  <path d="M11 11h9v9h-9v-9z" fill="#ffb900" />
+                </svg>
+                <div className="flex flex-col text-left leading-none justify-center">
+                  <span className="text-[10px] text-white/90 font-normal tracking-tight mb-0.5">
+                    Get it from
+                  </span>
+                  <span className="text-[14px] font-semibold text-white tracking-tight leading-none font-sans">
+                    Microsoft
+                  </span>
+                </div>
               </a>
             </div>
           </div>

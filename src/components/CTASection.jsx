@@ -25,22 +25,55 @@ const CTASection = () => {
           Download LiteBright to manage brightness across all your monitors from one place.
         </p>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <div className="flex flex-col items-center justify-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full">
+            <a
+              href="https://github.com/SN7k/LiteBright/releases/download/v1.2.1/LiteBright-Setup-1.2.1.exe"
+              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold text-white bg-[#1f2429] hover:bg-[#2c333a] border border-white/10 rounded-xl transition-all duration-200 active:scale-95 shadow-md hover:scale-[1.02]"
+            >
+              <Download className="w-5 h-5 mr-2" strokeWidth={2} />
+              Download LiteBright (v1.2.1)
+            </a>
+            <a
+              href="https://github.com/SN7k/LiteBright"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-sm font-medium text-[var(--text-main)] bg-[var(--card-bg)] border border-[var(--border-subtle)] rounded-xl hover:bg-[var(--border-subtle)] transition-all"
+            >
+              <Github className="w-5 h-5 mr-2" strokeWidth={2} />
+              View on GitHub
+            </a>
+          </div>
+
+          {/* Microsoft Store Badge */}
           <a
-            href="https://github.com/SN7k/LiteBright/releases/download/v1.2.0/LiteBright-Setup-1.2.0.exe"
-            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold text-white bg-[#1f2429] hover:bg-[#2c333a] border border-white/10 rounded-xl transition-all duration-200 active:scale-95 shadow-md hover:scale-[1.02]"
-          >
-            <Download className="w-5 h-5 mr-2" strokeWidth={2} />
-            Download LiteBright (v1.2.0)
-          </a>
-          <a
-            href="https://github.com/SN7k/LiteBright"
+            href="https://apps.microsoft.com/detail/9NTLVZDLPPK5"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-sm font-medium text-[var(--text-main)] bg-[var(--card-bg)] border border-[var(--border-subtle)] rounded-xl hover:bg-[var(--border-subtle)] transition-all"
+            id="cta-ms-store-btn"
+            className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-md bg-black text-white border border-white/30 hover:border-white/60 hover:bg-[#111111] transition-all duration-200 shadow-sm active:scale-95 cursor-pointer select-none"
+            title="Get LiteBright from Microsoft Store"
           >
-            <Github className="w-5 h-5 mr-2" strokeWidth={2} />
-            View on GitHub
+            <svg
+              className="w-5 h-5 flex-shrink-0"
+              viewBox="0 0 21 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path d="M1 1h9v9H1V1z" fill="#f25022" />
+              <path d="M11 1h9v9h-9V1z" fill="#7fba00" />
+              <path d="M1 11h9v9H1v-9z" fill="#00a4ef" />
+              <path d="M11 11h9v9h-9v-9z" fill="#ffb900" />
+            </svg>
+            <div className="flex flex-col text-left leading-none justify-center">
+              <span className="text-[10px] text-white/90 font-normal tracking-tight mb-0.5">
+                Get it from
+              </span>
+              <span className="text-[14px] font-semibold text-white tracking-tight leading-none font-sans">
+                Microsoft
+              </span>
+            </div>
           </a>
         </div>
 

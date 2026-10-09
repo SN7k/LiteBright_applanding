@@ -18,8 +18,20 @@ const Footer = () => {
           <span className="text-[var(--text-muted)] text-sm font-medium">LiteBright</span>
         </div>
 
-        <div className="text-[var(--text-muted)] text-xs">
-          &copy; {new Date().getFullYear()} LiteBright Open Source.
+        <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-[var(--text-muted)] text-xs">
+          <span>&copy; {new Date().getFullYear()} LiteBright Open Source.</span>
+          <span className="hidden sm:inline opacity-30">•</span>
+          <span>
+            Powered by{' '}
+            <a
+              href="https://snkdevworks.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-[var(--text-main)] hover:underline underline-offset-2 transition-colors"
+            >
+              SNK DevWorks
+            </a>
+          </span>
         </div>
       </div>
     </footer>

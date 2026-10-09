@@ -8,7 +8,8 @@
 - **License**: 100% Free and Open Source (MIT)
 - **Website**: https://litebright.pages.dev/
 - **GitHub Repository**: https://github.com/SN7k/LiteBright
-- **Latest Release Download**: https://github.com/SN7k/LiteBright/releases/download/v1.2.0/LiteBright-Setup-1.2.0.exe
+- **Latest Release Download**: https://github.com/SN7k/LiteBright/releases/download/v1.2.1/LiteBright-Setup-1.2.1.exe
+- **Microsoft Store**: https://apps.microsoft.com/detail/9NTLVZDLPPK5
 
 ## Key Features
 - **Independent & Synchronized Multi-Monitor Adjustment**: Adjust each monitor independently or sync all displays simultaneously with a single master slider.
