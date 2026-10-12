@@ -219,3 +219,34 @@ body {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+/* Print styling for Privacy Policy and Terms & Conditions */
+@media print {
+  header,
+  footer,
+  aside,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  body, html {
+    background: #ffffff !important;
+    color: #111827 !important;
+    font-size: 11pt !important;
+    line-height: 1.5 !important;
+  }
+
+  article {
+    border: 1px solid #e5e7eb !important;
+    box-shadow: none !important;
+    background: #ffffff !important;
+    page-break-inside: avoid;
+    margin-bottom: 24pt !important;
+    padding: 16pt !important;
+  }
+
+  h1, h2, h3 {
+    color: #000000 !important;
+  }
+}

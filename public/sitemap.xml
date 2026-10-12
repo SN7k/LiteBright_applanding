@@ -5,7 +5,7 @@
 
   <url>
     <loc>https://litebright.pages.dev/</loc>
-    <lastmod>2026-09-26T14:45:00+00:00</lastmod>
+    <lastmod>2026-10-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://litebright.pages.dev/" />
@@ -15,6 +15,24 @@
       <image:title>LiteBright — Multi-Monitor Brightness Controller</image:title>
       <image:caption>LiteBright is an ultra-lightweight Windows brightness controller for multiple displays.</image:caption>
     </image:image>
+  </url>
+
+  <url>
+    <loc>https://litebright.pages.dev/privacy</loc>
+    <lastmod>2026-10-12T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://litebright.pages.dev/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://litebright.pages.dev/privacy" />
+  </url>
+
+  <url>
+    <loc>https://litebright.pages.dev/terms</loc>
+    <lastmod>2026-10-12T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://litebright.pages.dev/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://litebright.pages.dev/terms" />
   </url>
 
 </urlset>
